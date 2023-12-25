@@ -1,0 +1,21 @@
+{
+  "name": "rollup-minimum-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.es.js",
+  "browser": "dist/bundle.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "rollup": "^3.28.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.1.6"
+  }
+}
